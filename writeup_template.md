@@ -22,7 +22,7 @@ The goals / steps of this project are the following:
     * **Step 1:** Converting the images to grayscale.
     * **Step 2:** Applying Gaussian Blur on gray scaled image to smoothen out the image given so that it eliminates the spurious gradients by averging
     * **Step 3:** Appliying canny edge detection to detect the edges in the image obtained after gussain blur.
-    * **Step 4:** Masking the region of interest on the canny edge detected image. I have taken a triangle a the region of interest for the given set of images
+    * **Step 4:** Masking the region of interest on the canny edge detected image. I have taken a polygon a the region of interest for the given set of images
     * **Step 5:** Applying hough transform on the canny edge detected image in the region of interest to find the lane lines
     * **Step 6:** Extrapolating the lines detected in the hough transform to draw continuous lane lines.
   * **In order to draw a single line on the left and right lanes, I modified the draw_lines() function in the below mentioned way:**
